@@ -14,20 +14,22 @@ import {
 const App = () => {
   return (
     <>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern m-auto justify-center max-w-6xl bg-cover  bg-no-repeat bg-center">
+      <div className="flex flex-col items-center w-full justify-center relative z-0 bg-primary">
+        <div className="bg-hero-pattern w-full mx-auto justify-center bg-cover   bg-no-repeat bg-center flex">
           <Navbar />
           <Hero />
         </div>
+        <div className="mt-5 flex flex-col gap-5">
           <About />
           <Experience />
           <Tech />
           <Works />
           <Feedbacks />
           <div className="relative z-0">
-          <Contact />
-          <StarsCanvas/>
+            <Contact />
+            <StarsCanvas />
           </div>
+        </div>
       </div>
     </>
   );

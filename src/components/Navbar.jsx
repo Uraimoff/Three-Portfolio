@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex justify-center items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} m-auto w-full  flex justify-center items-center py-5 px-10 fixed top-0 left-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between item-center max-w-7xl mr-auto">
         <Link
